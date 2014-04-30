@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Browser Test</title>
+  </head><body>
+	<p>Browser Test</p>
+    <script src='BrowserDetect.js'></script>
+	<script>
+		if (Browser.isIE) {
+			document.write('This is IE<br />');
+			document.write('Browser Version: ' +Browser.Version);
+		}else{
+			document.write('This is not IE');
+		}
+
+	</script>
+  </body>
+</html>

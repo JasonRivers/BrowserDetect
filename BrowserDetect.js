@@ -49,14 +49,3 @@ var Browser = (function () {
     return ret;
 }());
 
-if (Browser.isIE && Browser.Version <= 10) {
-// This is IE10 and below
-
-	document.write('IE <= 10<br />');
-	document.write('IE Version '+Browser.Version+'<br />');
-	
-}else {
-//This is IE 10 and all other browsers
-	document.write('IE 11 or a sensible browser');
-
-}
