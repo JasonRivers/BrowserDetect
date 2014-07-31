@@ -30,7 +30,7 @@ var Browser = (function () {
         isIE = true;
 	// check if we're IE11
 // Map the JS version to IE version from jscriptMap
-	if (jscriptVersion <=9) {
+	if (jscriptVersion <9) {
         Version = jscriptMap[jscriptVersion];
 	}else{
 	// We don't need to map for anything above 9, as it matches the version
